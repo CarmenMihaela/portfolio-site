@@ -1,0 +1,20 @@
+.contact {
+    height: 100%;
+    padding: 40vh 10vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    background: 
+      linear-gradient(
+        to top,
+        rgba($primary-color, 0.8),
+        rgba($primary-color, 0.0)
+        ),
+            url('https://cdn.pixabay.com/photo/2018/09/25/11/10/ditch-3701955_1280.jpg') center top;
+    background-size: cover;
+    font-size: 10vh;
+
+    a:hover {
+        color: $secondary-color;
+    }
+}

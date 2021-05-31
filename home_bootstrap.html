@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Carmen Vernica - Portfolio</title>
+</head>
+<body class="bg-dark text-light">
+
+    <!-- theme chooser and nav bar with hamburger for mobile -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark mx-5">
+        <div class="container-fluid">
+          <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="nav-item dropdown">
+            <a class=" text-success nav-link dropdown-toggle border-primary border-top border-bottom" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Theme
+            </a>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-primary" href="home_bootstrap.html"><i class="fab fa-bootstrap"></i> &nbsp; Classy (active)</a></li>
+              <li><a class="dropdown-item text-primary" href="index.html"><i class="fab fa-sass"></i> &nbsp; Sassy</a></li>
+            </ul>
+        </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <form class="d-flex">
+                <ul class=" text-primary navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                      <a class=" text-primary nav-link active border-success border-top border-bottom mx-2" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class=" text-primary nav-link dropdown-toggle border-top border-bottom border-success" href="#projects" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          My projects
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item text-primary border-success border-top border-bottom" href="#projects"><i class="fas fa-hammer"></i> &nbsp; My projects page</a></li>
+                          <li><a class="dropdown-item text-primary" href="https://github.com/CarmenMihaela"><i class="fab fa-github-square"></i> &nbsp; GitHub</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item ">
+                        <a class=" text-primary nav-link active  border-success border-top border-bottom  mx-2" aria-current="page" href="#aboutme">About me</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                      <a class=" text-primary nav-link dropdown-toggle border-top border-bottom  border-success mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contact me
+                      </a>
+                      <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-primary" href="mailto:hey@carmenmihaela.com"><i class="fas fa-envelope-square"></i> &nbsp; E-mail</a></li>
+                        <li><a class="dropdown-item text-primary" href="https://www.linkedin.com/in/carmen-vernica/"><i class="fab fa-linkedin"></i> &nbsp; Linkedin</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                      </ul>
+                    </li>
+                  </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+<!-- my photo and text in the middle -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+          </div>
+          <div class="col-sm col-md-1 mt-5 d-flex justify-content-center">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGyXvlZTY6Mxw/profile-displayphoto-shrink_400_400/0/1612794720929?e=1627516800&v=beta&t=e2B7fGOElFU7FreyZp9waCxwE3XkPVb-FpJ1vrx_O50" class=" mt-3 rounded-circle border border-5 border-secondary" alt="Carmen pic">
+          </div>
+          <div class="col-sm">
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm">
+            
+          </div>
+          <div class="col-sm d-flex justify-content-center">
+                <h4 class=" text-center text-light">Hey there! I am Carmen and I <i class="fas fa-heart"></i> programming.</h4>
+          </div>
+          <div class="col-sm">
+          </div>
+        </div>
+      </div>
+
+      <!-- link to my projects -->
+
+      <div class="container shadow-lg p-3 mb-5">
+        <div class="row">
+          <div class="col-sm">
+            
+          </div>
+          <div class="col-sm d-flex justify-content-center mt-2">
+            <div class=" bg-dark" style="width: 15rem;">
+                <div class="card-body ">
+                  <h4 class="card-text mt-5 text-center text-success"> <a class="card-text link-success mt-5 text-center text-success text-decoration-none" href="#projects" >See my projects <i class="fas fa-long-arrow-alt-down"></i></a></h4>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- my projects in a 2 x 3 column-->
+
+
+      <div class="container mt-5" id="projects">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card border border-primary bg-dark mb-5 mx-2">
+                <div class="card-body">
+                    <h5 class="card-title text-light">Transculturalia</h5>
+                    <p class="card-text text-muted">A beautiful and functional site made with WordPress and love. And some plugins.</p>
+                    <div class="list-group">
+                        <a href="https://transculturalia.com/language/en/contact-us/" target="_blank" class="list-group-item text-center list-group-item-action active bg-dark" aria-current="true"> 
+                            <i class="fas fa-envelope-square"></i> &nbsp;
+                            Contact Transculturalia
+                        </a>
+                        <a href="https://transculturalia.com/language/en/home/" target="_blank" class="list-group-item text-center list-group-item-action active bg-primary" aria-current="true">
+                            Visit site
+                        </a>
+                  </div>
+              </div>
+          </div>
+        </div>
+          <div class="col-lg-4">
+            <div class="card border border-primary bg-dark mb-5 mx-2">
+                <div class="card-body">
+                    <h5 class="card-title text-light">Offers Log</h5>
+                    <p class="card-text text-muted">A usable GUI made with Python's tkinter, matplotlib, numpy and an sqlite3 database.</p>
+                    <div class="list-group">
+                        <a href="https://github.com/CarmenMihaela/Offers-Log-GUI" target="_blank" class="list-group-item text-center list-group-item-action active bg-dark" aria-current="true"> 
+                            <i class="fab fa-github-square"></i> &nbsp;
+                            See repo on GitHub
+                        </a>
+                        <a href="https://replit.com/@CarmenMihaela/Offers-Log-GUI-3-tabs#main.py"  target="_blank" class="list-group-item text-center list-group-item-action active bg-success" aria-current="true">
+                            Use it on repl.it
+                        </a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border border-primary bg-dark mb-5 mx-2">
+                <div class="card-body">
+                    <h5 class="card-title text-light">Vorba dulce Game</h5>
+                    <p class="card-text text-muted">A words game crafted with JavaScript and CSS. Used by the Romanian School in Groningen.</p>
+                    <div class="list-group">
+                        <a href="https://github.com/CarmenMihaela/Vorba-dulce-game" target="_blank" class="list-group-item text-center list-group-item-action active bg-dark" aria-current="true"> 
+                            <i class="fab fa-github-square"></i> &nbsp;
+                            See repo on GitHub
+                        </a>
+                        <a href="https://vorbadulce.transculturalia.com/en/" target="_blank" class="list-group-item text-center list-group-item-action active bg-primary" aria-current="true">
+                            Play the game
+                        </a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card border border-primary bg-dark mb-5 mx-2">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">My Portfolio Site</h5>
+                        <p class="card-text text-muted">My site made by leveraging the power Bootstrap and all its classes. That is why the theme is called <em>classy</em>.  </p>
+                        <div class="list-group">
+                            <a href="https://github.com/CarmenMihaela/Portfolio-Site-with-Bootstrap" target="_blank" class="list-group-item text-center list-group-item-action active bg-dark" aria-current="true"> 
+                                <i class="fab fa-github-square"></i> &nbsp;
+                                See repo on GitHub
+                            </a>
+                            <a href="https://carmenmihaela.com/" target="_blank" class="list-group-item text-center list-group-item-action active bg-success" aria-current="true">
+                                Visit site
+                            </a>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card border border-primary bg-dark mb-5 mx-2">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">My Portfolio Site</h5>
+                        <p class="card-text text-muted">My site built with CSS, Sass and a pinch of JavaScript. Sintactically awesome - that is why the theme is called <em>sassy</em>.  </p>
+                        <div class="list-group">
+                            <a href="https://github.com/CarmenMihaela/Offers-Log-GUI" target="_blank" class="list-group-item text-center list-group-item-action active bg-dark" aria-current="true"> 
+                                <i class="fab fa-github-square"></i> &nbsp;
+                                See repo on GitHub
+                            </a>
+                            <a href="https://replit.com/@CarmenMihaela/Offers-Log-GUI-3-tabs#main.py" target="_blank" class="list-group-item text-center list-group-item-action active bg-primary" aria-current="true">
+                                Visit site
+                            </a>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+                <!-- link to about me -->
+
+      <div class="container shadow-lg p-3 mb-5" id="aboutme">
+        <div class="row">
+          <div class="col-sm">
+            
+          </div>
+          <div class="col-sm d-flex justify-content-center">
+            <div class=" bg-dark" style="width: 15rem;">
+                <div class="card-body">
+                  <h4 class="card-text mt-5 text-center text-success"> <a class="card-text link-success mt-5 text-center text-success text-decoration-none" href="#aboutme" >About me <i class="fas fa-long-arrow-alt-down"></i></a></h4>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+          </div>
+        </div>
+      </div>
+
+      <!-- text about me -->
+
+      <div class="card bg-dark shadow-lg text text-center">
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>Hey there! I am Carmen Vernica, a web
+              developer who enjoys working and creating with code.</p>
+              
+                <p> I moved to The Hague from Romania, my native country, mid of 2019, with my family.
+                After some months of adjusting and touring the beautiful
+                new country,  I began to learn Python and started
+                to pick up the Dutch language.</p>
+
+                <p>
+                  My previous corporate experience in quote management, account management and supply
+                   chain gives me a good background for understanding
+                    business needs and finding reliable solutions. </p>
+                
+                    <p>
+                      In my spare time, you can find me
+                      out on a nice walk or run, or in, with a good book or
+                      an easy series.</p>
+              
+            
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            
+          </div>
+          <div class="col-sm d-flex justify-content-center">
+            <div class=" bg-dark" style="width: 15rem;">
+                <div class="card-body shadow-lg ">
+                  <h5 class="card-text mt-5 text-center text-success"> <a class="card-text link-success mt-5 text-center text-primary text-decoration-none" href="#" >Hard Skills </a></h5>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+          </div>
+        </div>
+      </div>
+<!-- container for hard skills -->
+
+      <div class="container border border-success shadow-lg p-3 mb-5">
+        <div class="row">
+          <div class="col col-lg-2">
+          </div>
+          <div class="col col-lg-8">
+            <p class="text-start">HTML</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">85%</div>
+              </div>
+          </div>
+          <div class="col col-lg-2">
+          </div>
+        </div>
+        <div class="row my-3">
+            <div class="col col-lg-2">
+            </div>
+            <div class="col col-lg-8">
+              <p class="text-start">CSS</p>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+            </div>
+            <div class="col col-lg-2">
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col col-lg-2">
+            </div>
+            <div class="col col-lg-8">
+              <p class="text-start">SASS</p>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <div class="col col-lg-2">
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col col-lg-2">
+            </div>
+            <div class="col col-lg-8">
+              <p class="text-start">Bootstrap</p>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <div class="col col-lg-2">
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col col-lg-2">
+            </div>
+            <div class="col col-lg-8">
+              <p class="text-start">WordPress</p>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">70%</div>
+                </div>
+            </div>
+            <div class="col col-lg-2">
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col col-lg-2">
+            </div>
+            <div class="col col-lg-8">
+              <p class="text-start">JavaScript</p>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">40%</div>
+                </div>
+            </div>
+            <div class="col col-lg-2">
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col col-lg-2">
+            </div>
+            <div class="col col-lg-8">
+              <p class="text-start">Python (tkinter, matplotlib, numpy)</p>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">30%</div>
+                </div>
+            </div>
+            <div class="col col-lg-2">
+            </div>
+          </div>
+      </div>
+
+
+      <div class="container shadow-lg p-3 mb-5 mt-5">
+        <div class="row">
+          <div class="col col-xs-4">
+            <ul class="list-group text-center border border-success">
+                <li class="list-group-item bg-success text-light text-center" aria-current="true">Soft Skills</li>
+                <li class="list-group-item bg-dark text-light">Team player</li>
+                <li class="list-group-item bg-dark text-light">High business acumen</li>
+                <li class="list-group-item bg-dark text-light">Workplace maturity</li>
+                <li class="list-group-item bg-dark text-light">Dependable</li>
+              </ul>
+          </div>
+          <div class="col col-xs-4">
+            <ul class="list-group text-center border border-secondary">
+                <li class="list-group-item bg-secondary text-light text-center" aria-current="true">Values</li>
+                <li class="list-group-item bg-dark text-light ">Communication</li>
+                <li class="list-group-item bg-dark text-light ">Achievement</li>
+                <li class="list-group-item bg-dark text-light ">Balance</li>
+                <li class="list-group-item bg-dark text-light ">Humor</li>
+              </ul>
+          </div>
+          <div class="col col-xs-4">
+            <ul class="list-group text-center border border-success">
+                <li class="list-group-item bg-success text-light text-center" aria-current="true">Languages</li>
+                <li class="list-group-item bg-dark text-light">English - Profficient</li>
+                <li class="list-group-item bg-dark text-light">Dutch - B1</li>
+                <li class="list-group-item bg-dark text-light">Romanian - native</li>
+                <li class="list-group-item bg-dark text-light">Spanish - A0</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- work experience -->
+
+      <div class="container mt-2">
+        <div class="row">
+          <div class="col-sm">
+            
+          </div>
+          <div class="col-sm d-flex justify-content-center">
+            <div class=" bg-dark" style="width: 15rem;">
+                <div class="card-body shadow-lg p-3 mb-5">
+                  <h5 class="card-text mt-5 text-center text-primary"> <a class="card-text link-success mt-5 text-center text-primary text-decoration-none" href="#" >Work Experience </a></h5>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex p-2 bd-highlight shadow-lg p-3 mb-5" style="
+      background-image: url('https://images.unsplash.com/photo-1529802145134-04868ff05ce7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80');
+      object-fit: cover;
+    " >
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item bg-transparent">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                <h6> 2018-2019
+                Quote Manager • Continental (international automotive software and hardware manufacturer)</h6>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+                Part of the international engineering quotes team, responsible for the pricing of 
+                software driving functions in Continental's offers to OEMs. Held end to end 
+                responsibility for quotes in different markets (Europe, Asia, US).
+                Worked together with R&D teams (heads of disciplines, management and technical 
+                specialists) to find the best pricing scenarios.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-transparent">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <h6> 2016-2017
+                Account Manager • Accenture (global  operations / services company)</h6>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+                Acted as consultant in energy procurement contracts for clients in different 
+                industries. Responsible for high value energy spend and 
+                implementing client’s sourcing strategy, together with their supply chain and local 
+                procurement.
+                Worked closely with international sourcing team to issue tenders, uniformize RFQs 
+                across geographies and negotiate conditions. Selected vendors together with the 
+                clients and procurement teams. Acted as first escalation point regarding suppliers
+                internally as well as externally. 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-transparent">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <h6> 2010-2016
+                Buyer / EMEA Category Leader • Delphi Diesel Systems (international automotive manufacturer)</h6>
+                
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                Managed a supply base of over 40 suppliers, with total contracting value over 
+                $150M+. Developed, implemented and continuously improved the sourcing
+                strategy and supply panel for several categories. 
+                Worked together with the stakeholders on category strategy: identifying, selecting
+                and onboarding suppliers for Delphi plants and offices in Europe, Middle East and 
+                Africa.
+              </div>
+            </div>
+          </div>
+      </div>
+</div>
+
+<!-- my education -->
+
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-sm">
+      
+    </div>
+    <div class="col-sm d-flex justify-content-center">
+      <div class=" bg-dark" style="width: 15rem;">
+          <div class="card-body shadow-lg p-3 mb-5">
+            <h5 class="card-text mt-5 text-center text-primary"> <a class="card-text link-success mt-5 text-center text-primary text-decoration-none" href="#" >Education</a></h5>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm">
+    </div>
+  </div>
+</div>
+
+<table class="table table-dark table-hover mb-5">
+  <thead>
+    <tr class="text-primary">
+      <th scope="col">Year</th>
+      <th scope="col">Education Institution</th>
+      <th scope="col">Study Area</th>
+      <th scope="col">Degree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">2021 - present</th>
+      <td>TechGrounds</td>
+      <td>Web Development</td>
+      <td>Junior Web Developer</td>
+    </tr>
+    <tr>
+      <th scope="row">2007 – 2009</th>
+      <td>ELITEC, Postuniversity School of Alexandru Ioan Cuza University, 
+        Iasi, Romania</td>
+      <td>International Business</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <th scope="row">2003-2007</th>
+      <td>Alexandru Ioan Cuza University, Iasi, Romania</td>
+      <td>Romanian and English Language and Literature</td>
+      <td>Bachelors Degree</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="card text-center shadow-lg bg-dark text-success mt-5">
+
+    <div class="card-body border-primary">
+      <p class="card-text">© Copyright 2021 Carmen Vernica. All rights reserved.</p>
+      <a href="mailto:hey@carmenmihaela.com" class="btn text-dark btn-success"><i class="fas fa-envelope-square"></i> &nbsp; E-mail</a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4eb868992b.js" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+    
+</body>
+</html>
